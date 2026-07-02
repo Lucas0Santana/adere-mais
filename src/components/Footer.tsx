@@ -17,12 +17,12 @@ export function Footer() {
 
           <div className="flex items-center gap-8">
             <img
-              src="public/logos/logo-ufs.png"
+              src="logos/logo-ufs.png"
               alt="Logo da Universidade Federal de Sergipe (UFS)"
               className="h-14 w-auto object-contain brightness-0 invert opacity-80"
             />
             <img
-              src="public/logos/logo-dcomp.png"
+              src="logos/logo-dcomp.png"
               alt="Logo do Departamento de Computação (DCOMP/UFS)"
               className="h-10 w-auto object-contain brightness-0 invert opacity-80"
             />
