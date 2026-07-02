@@ -9,7 +9,7 @@ function TeamGroup({ label, people }: { label: string; people: Person[] }) {
       <p className="font-mono text-xs font-medium uppercase tracking-[0.14em] text-primary-600">
         {label}
       </p>
-      <div className="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {people.map((person) => (
           <PersonCard key={person.id} {...person} />
         ))}
