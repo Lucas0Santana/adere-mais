@@ -108,6 +108,7 @@ export const domainExperts: Person[] = [
     name: "Camille Lima Resende",
     detail: "Farmácia - UFS",
     role: "Mestranda",
+    photoUrl: "pessoas/camille.jpeg",
     isPlaceholder: false,
   },
   {
