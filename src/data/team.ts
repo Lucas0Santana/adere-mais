@@ -108,20 +108,20 @@ export const domainExperts: Person[] = [
     name: "Cinara Rejane Viana Oliveira",
     detail: "Farmácia - UFS",
     role: "Pós-doutoranda",
-    isPlaceholder: true,
+    isPlaceholder: false,
   },
   {
     id: "expert-3",
     name: "Camille Lima Resende",
     detail: "Farmácia - UFS",
     role: "Mestranda",
-    isPlaceholder: true,
+    isPlaceholder: false,
   },
     {
     id: "expert-4",
     name: "Rafaela dos Santos",
     detail: "Farmácia - UFS",
     role: "Graduanda",
-    isPlaceholder: true,
+    isPlaceholder: false,
   },
 ];
