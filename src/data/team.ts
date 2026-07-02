@@ -42,7 +42,7 @@ export const developers: Person[] = [
     isPlaceholder: false,
   },
   {
-    id: "dev-5",
+    id: "dev-6",
     name: "Lucas Santana de Jesus",
     role: "Desenvolvedor",
     detail: "Ciência da Computação — UFS",
@@ -50,7 +50,7 @@ export const developers: Person[] = [
     isPlaceholder: false,
   },
   {
-    id: "dev-6",
+    id: "dev-7",
     name: "Mateus do Rosario Costa",
     role: "Sistema de Informação — UFS",
     detail: "Desenvolvedor",
@@ -97,7 +97,7 @@ export const technicalAdvisors: Person[] = [
 export const domainExperts: Person[] = [
   {
     id: "expert-1",
-    name: "Dr. Alfredo Dias de Oliveira Filho",
+    name: "Alfredo Dias de Oliveira Filho",
     role: "Farmácia - UFS",
     detail: "Professor pesquisador",
     photoUrl: "pessoas/alfredo.png",
@@ -105,7 +105,7 @@ export const domainExperts: Person[] = [
   },
   {
     id: "expert-2",
-    name: "Dra. Cinara Rejane Viana Oliveira",
+    name: "Cinara Rejane Viana Oliveira",
     role: "Farmácia - UFS",
     detail: "Pós-doutoranda",
     isPlaceholder: true,
@@ -118,7 +118,7 @@ export const domainExperts: Person[] = [
     isPlaceholder: true,
   },
     {
-    id: "expert-3",
+    id: "expert-4",
     name: "Rafaela dos Santos",
     role: "Farmácia - UFS",
     detail: "Graduanda",
