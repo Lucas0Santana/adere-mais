@@ -1,63 +1,61 @@
 import type { Person } from "../types";
 
-/**
- * Edit these arrays as real team information becomes available.
- * `isPlaceholder: true` renders an initials avatar instead of a photo and
- * keeps the entry visually marked as pending — flip it to false once a
- * real photo (`photoUrl`) and confirmed details are provided.
- *
- * Do not add names, courses or photos that have not been confirmed.
- */
-
 export const developers: Person[] = [
   {
     id: "dev-1",
     name: "Adailton Moura da Silva",
     role: "Desenvolvedor",
     detail: "Ciência da Computação — UFS",
-    isPlaceholder: true,
+    photoUrl: "public\\pessoas\\adailton.jpg",
+    isPlaceholder: false,
   },
   {
     id: "dev-2",
     name: "David Viera Reis",
     role: "Desenvolvedor",
     detail: "Ciência da Computação — UFS",
-    isPlaceholder: true,
+    photoUrl: "public\\pessoas\\david.png",
+    isPlaceholder: false,
   },
   {
     id: "dev-3",
     name: "Gabriel Chagas Melo Ribeiro",
     role: "Desenvolvedor",
     detail: "Ciência da Computação — UFS",
-    isPlaceholder: true,
+    photoUrl: "public\\pessoas\\chagas.png",
+    isPlaceholder: false,
   },
   {
     id: "dev-4",
     name: "Gustavo Santos Oliveira",
     role: "Desenvolvedor",
     detail: "Ciência da Computação — UFS",
-    isPlaceholder: true,
+    photoUrl: "public\\pessoas\\gustavo.jpg",
+    isPlaceholder: false,
   },
   {
     id: "dev-5",
     name: "Linda Geovana Damasceno de Sá",
     role: "Desenvolvedor",
     detail: "Ciência da Computação — UFS",
-    isPlaceholder: true,
+    photoUrl: "public\\pessoas\\linda.png",
+    isPlaceholder: false,
   },
   {
     id: "dev-5",
     name: "Lucas Santana de Jesus",
     role: "Desenvolvedor",
     detail: "Ciência da Computação — UFS",
-    isPlaceholder: true,
+    photoUrl: "public\\pessoas\\lucas.jpeg",
+    isPlaceholder: false,
   },
   {
     id: "dev-6",
     name: "Mateus do Rosario Costa",
     role: "Sistema de Informação — UFS",
     detail: "Desenvolvedor",
-    isPlaceholder: true,
+    photoUrl: "public\\pessoas\\mateus.jpg",
+    isPlaceholder: false,
   },
 ];
 
@@ -67,28 +65,32 @@ export const technicalAdvisors: Person[] = [
     name: "Debora Maria Coelho Nascimento",
     role: "Orientadora",
     detail: "Departamento de Computação — UFS",
-    isPlaceholder: true,
+    photoUrl: "public\\pessoas\\debora.png",
+    isPlaceholder: false,
   },
   {
     id: "prof-debora",
     name: "Ricardo José Paiva de Britto Salgueiro",
     role: "Orientador",
     detail: "Departamento de Computação — UFS",
-    isPlaceholder: true,
+    photoUrl: "public\\pessoas\\ricardo.png",
+    isPlaceholder: false,
   },
   {
     id: "prof-debora",
     name: "Edilayne Meneses Salgueiro",
     role: "Orientadora",
     detail: "Departamento de Computação — UFS",
-    isPlaceholder: true,
+    photoUrl: "public\\pessoas\\edilayne.png",
+    isPlaceholder: false,
   },
   {
     id: "prof-debora",
     name: "Michel dos Santos Soares",
     role: "Orientador",
     detail: "Departamento de Computação — UFS",
-    isPlaceholder: true,
+    photoUrl: "public\\pessoas\\michel.jpg",
+    isPlaceholder: false,
   },
 ];
 
@@ -98,7 +100,8 @@ export const domainExperts: Person[] = [
     name: "Dr. Alfredo Dias de Oliveira Filho",
     role: "Farmácia - UFS",
     detail: "Professor pesquisador",
-    isPlaceholder: true,
+    photoUrl: "public\\pessoas\\alfredo.png",
+    isPlaceholder: false,
   },
   {
     id: "expert-2",
