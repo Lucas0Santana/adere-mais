@@ -14,7 +14,7 @@ export function AdereLogo({ variant = "dark", className = "" }: AdereLogoProps) 
   return (
     <div className={`flex items-center gap-2.5 ${className}`}>
       <img
-        src="public/favicon 2.svg"
+        src="favicon 2.svg"
         alt=""
         aria-hidden="true"
         className="h-8 w-8 shrink-0 object-contain"
