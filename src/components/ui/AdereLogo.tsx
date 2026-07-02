@@ -10,7 +10,6 @@ interface AdereLogoProps {
  */
 export function AdereLogo({ variant = "dark", className = "" }: AdereLogoProps) {
   const textColor = variant === "dark" ? "text-ink" : "text-white";
-  const plusColor = variant === "dark" ? "text-accent-500" : "text-accent-300";
 
   return (
     <div className={`flex items-center gap-2.5 ${className}`}>
@@ -21,7 +20,6 @@ export function AdereLogo({ variant = "dark", className = "" }: AdereLogoProps) 
         className="h-8 w-8 shrink-0 object-contain"
       />
       <span className={`font-display text-lg font-semibold tracking-tight ${textColor}`}>
-        {/* Adere<span className={plusColor}>+</span> */}
       </span>
     </div>
   );

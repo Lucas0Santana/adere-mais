@@ -1,4 +1,4 @@
-import { PlayCircle, Sparkles } from "lucide-react";
+import { PlayCircle } from "lucide-react";
 import { Button } from "./ui/Button";
 import { BlisterMotif } from "./ui/BlisterMotif";
 
@@ -15,10 +15,6 @@ export function Hero() {
 
       <div className="relative mx-auto max-w-6xl px-6">
         <div className="max-w-2xl">
-          {/* <span className="inline-flex items-center gap-2 rounded-full border border-primary-300 bg-white/70 px-4 py-1.5 font-mono text-xs font-medium uppercase tracking-wide text-primary-700">
-            <Sparkles className="h-3.5 w-3.5" />
-            Projeto DCOMP · UFS
-          </span> */}
 
           <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.1] text-ink sm:text-5xl lg:text-6xl">
             Tecnologia para acompanhar a adesão de medicamentos em ensaios clínicos
