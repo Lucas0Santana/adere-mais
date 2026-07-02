@@ -8,9 +8,9 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-col items-start justify-between gap-10 sm:flex-row sm:items-center">
           <div>
-            <AdereLogo variant="light" />
+            <AdereLogo variant="light" size="xl" />
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/50">
-              Projeto desenvolvido no contexto acadêmico do Departamento de
+              Projeto desenvolvido no Departamento de
               Computação da Universidade Federal de Sergipe.
             </p>
           </div>

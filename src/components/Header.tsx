@@ -22,7 +22,7 @@ export function Header() {
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#inicio" aria-label="Adere+, ir para o início">
-          <AdereLogo />
+          <AdereLogo size="lg"/>
         </a>
 
         <nav className="hidden items-center gap-8 md:flex" aria-label="Navegação principal">
@@ -30,7 +30,7 @@ export function Header() {
             <a
               key={item.href}
               href={item.href}
-              className="text-sm font-medium text-ink-soft transition-colors hover:text-primary-600"
+              className="text-lg font-medium text-ink-soft transition-colors hover:text-primary-600"
             >
               {item.label}
             </a>
