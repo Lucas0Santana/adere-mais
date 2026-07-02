@@ -22,7 +22,7 @@ export function Hero() {
 
           <p className="mt-6 text-lg leading-relaxed text-muted sm:text-xl">
             O Adere+ apoia pacientes, farmacêuticos, coordenadores de pesquisa
-            e administradores no acompanhamento do uso correto de
+            e alunos de pesquisa no acompanhamento do uso correto de
             medicamentos, com mais segurança, organização e inteligência.
           </p>
 
