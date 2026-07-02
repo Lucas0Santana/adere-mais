@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+/* Font faces are registered in main.tsx via @fontsource JS imports —
+   Vite resolves their relative woff/woff2 url()s correctly that way. */
+
+/* ---------------------------------------------------------------------- */
+/* Adere+ design tokens                                                    */
+/* Palette: clinical teal (primary) + amber (adherence/reminder accent)    */
+/* + research blue (data). Neutral cool grays, no cream/near-black clichés */
+/* ---------------------------------------------------------------------- */
+@theme {
+  --color-ink: #0b1f2a;
+  --color-ink-soft: #16303d;
+
+  --color-primary-50: #eef7f6;
+  --color-primary-100: #d3ebe8;
+  --color-primary-300: #7fbdb8;
+  --color-primary-500: #146c6a;
+  --color-primary-600: #0f5b59;
+  --color-primary-700: #0e4e4c;
+  --color-primary-900: #082e2d;
+
+  --color-accent-100: #fdedd2;
+  --color-accent-300: #f4c37e;
+  --color-accent-500: #e8a33d;
+  --color-accent-600: #cb8523;
+
+  --color-research-400: #5b93bb;
+  --color-research-500: #2d6e9e;
+  --color-research-700: #204d70;
+
+  --color-bg: #f6f9f8;
+  --color-surface: #ffffff;
+  --color-surface-soft: #eef3f2;
+  --color-muted: #5b6b6a;
+  --color-muted-2: #7c8b8a;
+  --color-border: #dde6e4;
+  --color-border-soft: #e8eeed;
+
+  --font-display: "Sora", "Segoe UI", sans-serif;
+  --font-body: "Inter", "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --shadow-card: 0 1px 2px rgba(11, 31, 42, 0.04), 0 8px 24px -12px rgba(11, 31, 42, 0.12);
+  --shadow-card-hover: 0 4px 8px rgba(11, 31, 42, 0.06), 0 20px 40px -16px rgba(20, 108, 106, 0.22);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-primary-500);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  /* Blister-pack motif: rows of dosage cells, the page's signature texture.
+     Used behind the hero and as section dividers — a direct visual echo of
+     the medication blister packs the product tracks via QR code. */
+  .blister-grid {
+    background-image: radial-gradient(circle, rgba(20, 108, 106, 0.16) 1.6px, transparent 1.6px);
+    background-size: 22px 22px;
+  }
+}

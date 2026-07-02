@@ -1,0 +1,49 @@
+import { PlayCircle, Sparkles } from "lucide-react";
+import { Button } from "./ui/Button";
+import { BlisterMotif } from "./ui/BlisterMotif";
+
+export function Hero() {
+  return (
+    <section
+      id="inicio"
+      className="relative overflow-hidden bg-gradient-to-b from-primary-50 via-bg to-bg pt-32 pb-20 sm:pt-40 sm:pb-28"
+    >
+      <div className="blister-grid pointer-events-none absolute inset-0 opacity-60" />
+      <div className="pointer-events-none absolute -right-16 top-24 hidden w-[280px] rotate-6 opacity-90 lg:block">
+        <BlisterMotif className="w-full drop-shadow-sm" />
+      </div>
+
+      <div className="relative mx-auto max-w-6xl px-6">
+        <div className="max-w-2xl">
+          <span className="inline-flex items-center gap-2 rounded-full border border-primary-300 bg-white/70 px-4 py-1.5 font-mono text-xs font-medium uppercase tracking-wide text-primary-700">
+            <Sparkles className="h-3.5 w-3.5" />
+            Projeto DCOMP · UFS
+          </span>
+
+          <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.1] text-ink sm:text-5xl lg:text-6xl">
+            Tecnologia para acompanhar a adesão de medicamentos em ensaios clínicos
+          </h1>
+
+          <p className="mt-6 text-lg leading-relaxed text-muted sm:text-xl">
+            O Adere+ apoia pacientes, farmacêuticos, coordenadores de pesquisa
+            e administradores no acompanhamento do uso correto de
+            medicamentos, com mais segurança, organização e inteligência.
+          </p>
+
+          <div className="mt-10 flex flex-wrap gap-4">
+            <Button href="#objetivo" variant="primary">
+              Conheça o projeto
+            </Button>
+            <Button href="#funcionalidades" variant="secondary">
+              Ver funcionalidades
+            </Button>
+            <Button href="#pitch" variant="secondary">
+              <PlayCircle className="h-4 w-4" />
+              Assistir pitch
+            </Button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
