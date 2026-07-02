@@ -10,5 +10,4 @@ export const navItems: NavItem[] = [
   { label: "Contato", href: "#contato" },
 ];
 
-/** Placeholder until the official project inbox is confirmed. */
-export const CONTACT_EMAIL = "contato-adere@dcomp.ufs.br";
+export const CONTACT_EMAIL = "homologacaoadere@gmail.com";
