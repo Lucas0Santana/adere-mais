@@ -65,7 +65,7 @@ export const technicalAdvisors: Person[] = [
     name: "Debora Maria Coelho Nascimento",
     role: "Orientadora",
     detail: "Computação — UFS",
-    photoUrl: "pessoas/debora.png",
+    photoUrl: "pessoas/debora.jpg",
     isPlaceholder: false,
   },
   {
@@ -116,6 +116,7 @@ export const domainExperts: Person[] = [
     name: "Cinara Rejane Viana Oliveira",
     detail: "Farmácia - UFS",
     role: "Pós-doutoranda",
+    photoUrl: "pessoas/cinara.jpeg",
     isPlaceholder: false,
   },
     {
@@ -123,6 +124,7 @@ export const domainExperts: Person[] = [
     name: "Rafaela dos Santos",
     detail: "Farmácia - UFS",
     role: "Graduanda",
+    photoUrl: "pessoas/rafaela.jpeg",
     isPlaceholder: false,
   },
 ];
