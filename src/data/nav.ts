@@ -10,4 +10,4 @@ export const navItems: NavItem[] = [
   { label: "Contato", href: "#contato" },
 ];
 
-export const CONTACT_EMAIL = "homologacaoadere@gmail.com";
+export const CONTACT_EMAIL = "aderemais@dcomp.ufs.br";
