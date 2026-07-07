@@ -2,7 +2,6 @@ import {
   BarChart3,
   BellRing,
   Boxes,
-  CheckCircle2,
   FlaskConical,
   Pill,
   QrCode,
