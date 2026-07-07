@@ -30,7 +30,7 @@ export function Objective() {
     <Section
       id="objetivo"
       eyebrow="Objetivo"
-      title="Monitoramento de adesão em ensaios clínicos"
+      title="Transformando a gestão dos ensaios clínicos."
       intro="O Adere+ é uma plataforma digital que auxilia no acompanhamento da adesão de pacientes aos medicamentos em ensaios clínicos, dando à equipe responsável mais controle sobre o uso dos medicamentos por parte dos pacientes e organização das informações do estudo."
     >
       <p className="max-w-3xl text-sm font-medium uppercase tracking-wide text-primary-600">
