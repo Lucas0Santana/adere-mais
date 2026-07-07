@@ -1,5 +1,12 @@
 import type { LucideIcon } from "lucide-react";
 
+export interface FeatureMedia {
+  kind: "image" | "video";
+  src: string;
+  alt: string;
+  poster?: string;
+}
+
 /** A single point highlighted in the "Diferenciais" section. */
 export interface Differential {
   id: string;
@@ -15,6 +22,7 @@ export interface Feature {
   icon: LucideIcon;
   title: string;
   description: string;
+  media?: FeatureMedia;
 }
 
 /** A person featured in the "Equipe" section. Photo is optional — falls back
