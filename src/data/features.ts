@@ -50,7 +50,7 @@ export const features: Feature[] = [
     id: "grupos-posologia",
     step: 3,
     icon: Pill,
-    title: "Gestão de medicamento",
+    title: "Gestão de medicamentos",
     description:
       "Cadastre medicamentos com suas composições para serem utilizados nos ensaios e no controle de lotes.",
     media: {
