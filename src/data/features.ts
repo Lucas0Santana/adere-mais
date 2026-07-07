@@ -37,7 +37,7 @@ export const features: Feature[] = [
     id: "gerenciamento-pacientes",
     step: 2,
     icon: UsersRound,
-    title: "Gerenciamento de pacientes",
+    title: "Gestão de pacientes",
     description:
       "Cadastre pacientes e vincule cada um ao seu ensaio e grupo de medicamento correspondente.",
     media: {
@@ -50,9 +50,9 @@ export const features: Feature[] = [
     id: "grupos-posologia",
     step: 3,
     icon: Pill,
-    title: "Grupos de medicamento e posologia",
+    title: "Gestão de medicamento",
     description:
-      "Configure medicamentos, grupos, horários e orientações de uso para cada participante.",
+      "Cadastre medicamentos com suas composições para serem utilizados nos ensaios e no controle de lotes.",
     media: {
       kind: "image",
       src: assetPath("screenshots/listagem-medicamentos.png"),
