@@ -1,6 +1,7 @@
 import { PlayCircle } from "lucide-react";
-import { Button } from "./ui/Button";
+
 import { BlisterMotif } from "./ui/BlisterMotif";
+import { Button } from "./ui/Button";
 
 export function Hero() {
   return (
@@ -17,13 +18,13 @@ export function Hero() {
         <div className="max-w-2xl">
 
           <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.1] text-ink sm:text-5xl lg:text-6xl">
-            Tecnologia para acompanhar a adesão de medicamentos em ensaios clínicos
+            Tecnologia para acompanhar a adesão aos medicamentos em ensaios clínicos
           </h1>
 
           <p className="mt-6 text-lg leading-relaxed text-muted sm:text-xl">
-            O Adere+ apoia pacientes, farmacêuticos, coordenadores de pesquisa
-            e alunos de pesquisa no acompanhamento do uso correto de
-            medicamentos, com mais segurança, organização e inteligência.
+            O Adere+ apoia farmacêuticos, coordenadores e alunos de pesquisa
+            a monitorar o uso adequado dos medicamentos durante um ensaio clínico,
+            garantindo aos pacientes mais segurança, organização e inteligência.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">

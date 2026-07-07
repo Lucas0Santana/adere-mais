@@ -1,4 +1,5 @@
-import { AlertTriangle, FileWarning, EyeOff, Network } from "lucide-react";
+import { AlertTriangle, EyeOff, FileWarning, Network } from "lucide-react";
+
 import { Section } from "./ui/Section";
 
 const challenges = [
@@ -29,8 +30,8 @@ export function Objective() {
     <Section
       id="objetivo"
       eyebrow="Objetivo"
-      title="Uma plataforma para dar mais controle à adesão de medicamentos"
-      intro="O Adere+ é uma plataforma digital que auxilia no acompanhamento da adesão de medicamentos de pacientes participantes de ensaios clínicos, dando à equipe responsável mais controle sobre o uso dos medicamentos e organização das informações do estudo."
+      title="Monitoramento de adesão em ensaios clínicos"
+      intro="O Adere+ é uma plataforma digital que auxilia no acompanhamento da adesão de pacientes aos medicamentos em ensaios clínicos, dando à equipe responsável mais controle sobre o uso dos medicamentos por parte dos pacientes e organização das informações do estudo."
     >
       <p className="max-w-3xl text-sm font-medium uppercase tracking-wide text-primary-600">
         Dificuldades que o sistema busca reduzir

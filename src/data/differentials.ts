@@ -1,13 +1,14 @@
 import {
-  FlaskConical,
-  Smartphone,
-  PackageSearch,
-  QrCode,
   BellRing,
   ClipboardList,
-  Gauge,
   Database,
+  FlaskConical,
+  Gauge,
+  PackageSearch,
+  QrCode,
+  Smartphone,
 } from "lucide-react";
+
 import type { Differential } from "../types";
 
 /**
@@ -27,7 +28,7 @@ export const differentials: Differential[] = [
     icon: Smartphone,
     title: "Web e mobile integrados",
     description:
-      "Coordenadores acompanham pelo sistema web enquanto pacientes registram o uso direto do aplicativo.",
+      "Coordenadores acompanham pelo sistema web enquanto pacientes registram o uso a partir do aplicativo mobile.",
   },
   {
     id: "controle-lotes",
@@ -41,7 +42,7 @@ export const differentials: Differential[] = [
     icon: QrCode,
     title: "QR Code para identificação e rastreabilidade",
     description:
-      "Cada embalagem recebe um código próprio, agilizando a identificação segura durante o estudo.",
+      "Cada embalagem recebe um código próprio e criptografado, agilizando a identificação segura durante o estudo.",
   },
   {
     id: "lembretes",
@@ -55,7 +56,7 @@ export const differentials: Differential[] = [
     icon: ClipboardList,
     title: "Registro estruturado do uso",
     description:
-      "Cada dose tomada fica documentada de forma padronizada, sem depender de anotações manuais.",
+      "Cada dose tomada é registrada pelo paciente, garantindo total rastreabilidade e dispensando anotações manuais.",
   },
   {
     id: "indicadores",
